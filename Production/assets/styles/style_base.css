@@ -4,7 +4,11 @@ a, a:visited {
 }
 
 body{
-    background-color: rgb(20, 20, 20);
+    background-image: url('../pictures/fond-sable.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 /* ENTÊTE */

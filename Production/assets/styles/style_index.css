@@ -1,0 +1,107 @@
+a, a:visited {
+	text-decoration: none;
+    color: white;
+}
+a:hover, a:focus{
+    text-decoration: underline;
+}
+body{
+    background-image: url('../pictures/fond-sable.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* ENTÊTE */
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+div.nom {
+    width: 200px ;
+    height: 50px;
+    position: absolute;
+    left :20px;
+    top: 20px;
+}
+div.nom a:hover, a:focus{
+    text-decoration: none;
+}
+div.nom p.prenom {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    text-transform: uppercase ;
+}
+
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+ul.menu{
+    right: 20px;
+    top: 20px;
+}
+ul.rs{
+    left: 40px;
+    bottom: 20px;
+}
+ul> li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* MILIEU */
+/* Bloc de gauche */
+div.bloc-gauche{
+    /* background-color: teal; */
+    width: 480px;
+    height: auto;
+    position: absolute;
+    left :175px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+div.bloc-gauche h1{
+    font-size: 75px;
+    margin:10px;
+}
+div.bloc-gauche p{
+    font-style: italic;
+}
+
+/* Bloc de droite */
+
+div.bloc-droite{
+    /* background-color: teal; */
+    width: 260px;
+    height: auto;
+    position: absolute;
+    right: 340px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.bloc-droite p{
+    font-size: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
