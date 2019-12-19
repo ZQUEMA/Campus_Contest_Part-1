@@ -16,6 +16,11 @@ body{
     position: relative;
     color: white;
     text-shadow: 1px 1px 2px black;
+    margin: 0;
+    padding-bottom:80px ;
+}
+body p{
+    text-align: justify;
 }
 /* ENTÊTE */
 header {
@@ -67,7 +72,7 @@ a:hover, a:focus{
     text-decoration: underline;
 }
 /* MILIEU */
-div.premier{
+section.premier{
     /* background-color: darkgray; */
     height: 100vh;
     width: 100%;
@@ -91,9 +96,9 @@ div.photo{
     border-radius: 100px;
 }
 
-div.textes{
+section.textes{
     /* background-color: darkgreen; */
-    height: 800px;
+    height: auto;
     width: 65%;
     margin: 0;
     padding: 20px;
@@ -102,40 +107,57 @@ div.textes{
     transform: translateX(-50%) ;
     position: relative;
 }
-div.textes div{
+section.textes div{
     display: inline-block;
     padding: 10px;
+    margin: 10px;
 }
 div.clientelle{
     /* background-color: darkkhaki; */
     width: 30%;
-    height: 80%;
-    position: absolute;
-    left: 5%;
+    height: auto;
+    /* position: absolute;
+    left: 5%; */
 
 }
 div.presentation{
     /* background-color: darkmagenta; */
     width: 55%;
-    height: 80%;
+    height: auto;
     position: absolute;
-    right: 5%;
+    top: auto;
+    /* right: 5%; */
 }
-div.presentation a.projets{
+div.recommandations{
+    /* background-color: darkolivegreen; */
+    width: auto ;
+    height: auto%;
+    /* position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 20px; */
+}
+div.recommandations p{
+    font-style: italic;
+}
+section.textes h2{
+    text-transform: uppercase;
+}
+section.textes a.projets{
     /* background-color: darkorange; */
     display: block;
     position: absolute;
     right: 10%;
-    bottom: 5%;
+    bottom: 10px;
     width: auto;
     height: auto;
 }
-div.presentation a.contact{
+section.textes a.contact{
     /* background-color: darkorange; */
     display: block;
     position: absolute;
     Left: 10%;
-    bottom: 5%;
+    bottom: 10px;
     width: auto;
     height: auto;
 }
