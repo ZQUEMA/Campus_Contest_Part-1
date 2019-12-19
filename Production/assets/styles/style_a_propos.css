@@ -15,6 +15,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     color: white;
+    text-shadow: 1px 1px 2px black;
 }
 /* ENTÊTE */
 header {
@@ -39,7 +40,9 @@ div.nom p.prenom {
     margin: 0;
     text-transform: uppercase ;
 }
-
+div.nom a:hover, a:focus{
+    text-decoration: none;
+}
 /* NAVIGATION */
 ul {
     list-style-type: none;

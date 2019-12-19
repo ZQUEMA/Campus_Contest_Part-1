@@ -2,10 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-        <title>Accueil - Portfolio Prenom Nom</title>
+        <title>Contact - Portfolio Prenom Nom</title>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
-        <link href="../assets/styles/style_index.css" rel="stylesheet"/>
-
+        <link href="../assets/styles/style_contact.css" rel="stylesheet"/>
     </head>
 
     <body>
@@ -28,9 +27,32 @@
             </nav>
         </header>
         <!-- MILIEU -->
-        <section>
-            
-        </section>
+        <div class='contact'>
+            <h1>Me contacter</h1>
+            <form action="https://formspree.io/xnqjnkab" method="POST">
+                <div class="name">
+                    <label>Nom : <br/>
+                        <input class="name" type="text" name="user_name">
+                    </label>
+                </div>
+                <div class="firstname">
+                    <label>Prénom : <br/>
+                        <input class="firstname" type="text" name="user_firstname" >
+                    </label>
+                </div>
+                <div class="email">
+                    <label>Email : <br/>
+                        <input class="email" type="text" name="user_email" >
+                    </label>
+                </div>
+                <div class="message">
+                    <label>Message : <br/>
+                        <textarea class="message" name="message" ></textarea>
+                    </label>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
         <!-- FOOTER -->
         <footer>
             <ul class="rs">
