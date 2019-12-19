@@ -1,0 +1,148 @@
+a, a:visited {
+	text-decoration: none;
+    color: white;
+}
+a:hover, a:focus{
+    text-decoration: underline;
+}
+
+body{
+    background-image: url('../pictures/fond-sable.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    color: white;
+}
+/* ENTÊTE */
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+div.nom {
+    width: 200px ;
+    height: 50px;
+    position: absolute;
+    left :20px;
+    top: 20px;
+}
+div.nom p.prenom {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    text-transform: uppercase ;
+}
+
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+ul.menu{
+    right: 20px;
+    top: 20px;
+}
+ul.rs{
+    left: 40px;
+    bottom: 20px;
+}
+ul> li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+a:hover, a:focus{
+    text-decoration: underline;
+}
+/* MILIEU */
+div.premier{
+    /* background-color: darkgray; */
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+div.photo{
+    background-image: url('../pictures/Portrait.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) ;
+    top : 75px;
+    width: 50%;
+    height:70%;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+}
+
+div.textes{
+    /* background-color: darkgreen; */
+    height: 800px;
+    width: 65%;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) ;
+    position: relative;
+}
+div.textes div{
+    display: inline-block;
+    padding: 10px;
+}
+div.clientelle{
+    /* background-color: darkkhaki; */
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    left: 5%;
+
+}
+div.presentation{
+    /* background-color: darkmagenta; */
+    width: 55%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+}
+div.presentation a.projets{
+    /* background-color: darkorange; */
+    display: block;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: auto;
+    height: auto;
+}
+div.presentation a.contact{
+    /* background-color: darkorange; */
+    display: block;
+    position: absolute;
+    Left: 10%;
+    bottom: 5%;
+    width: auto;
+    height: auto;
+}
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}

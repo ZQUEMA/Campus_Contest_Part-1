@@ -64,7 +64,6 @@ ul> li {
 /* MILIEU */
 /* Bloc de gauche */
 div.bloc-gauche{
-    /* background-color: teal; */
     width: 480px;
     height: auto;
     position: absolute;
@@ -84,7 +83,6 @@ div.bloc-gauche p{
 /* Bloc de droite */
 
 div.bloc-droite{
-    /* background-color: teal; */
     width: 260px;
     height: auto;
     position: absolute;

@@ -2,7 +2,9 @@ a, a:visited {
 	text-decoration: none;
     color: white;
 }
-
+a:hover, a:focus{
+    text-decoration: underline;
+}
 body{
     background-image: url('../pictures/fond-sable.jpg');
     background-repeat: no-repeat;
@@ -10,6 +12,7 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px 2px black;
 }
 /* ENTÊTE */
 header {
@@ -25,6 +28,9 @@ div.nom {
     position: absolute;
     left :20px;
     top: 20px;
+}
+div.nom a:hover, a:focus{
+    text-decoration: none;
 }
 div.nom p.prenom {
     text-align: center;
@@ -54,6 +60,8 @@ ul> li {
     font-size: 20px;
     margin: 10px;
 }
+
+/* MILIEU */
 
 /* FOOTER */
 

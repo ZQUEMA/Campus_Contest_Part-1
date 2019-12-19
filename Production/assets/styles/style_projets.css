@@ -2,7 +2,9 @@ a, a:visited {
 	text-decoration: none;
     color: white;
 }
-
+a:hover, a:focus{
+    text-decoration: underline;
+}
 body{
 
     background-image: url('../pictures/fond-sable.jpg');
@@ -66,10 +68,6 @@ section{
     
 }
 div.projet1{
-    background-image: url('../pictures/Screen.jpg');
-    background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
     width: 25%;
     height: 100%;
     margin: 0;
@@ -77,11 +75,24 @@ div.projet1{
     left: 0;
     top: 0;
 }
-div.projet2{
-    background-image: url('../pictures/Computer.jpg');
+div.projet1:before {
+    background-image: url('../pictures/Screen.jpg');
     background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+div.projet1:hover:before {
+    opacity: 1;
+}
+div.projet2{
     width: 25%;
     height: 100%;
     margin: 0;
@@ -89,11 +100,25 @@ div.projet2{
     left: 25%;
     top: 0;
 }
-div.projet3{
-    background-image: url('../pictures/Desk.jpg');
+div.projet2:before {
+    background-image: url('../pictures/Computer.jpg');
     background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+div.projet2:hover:before {
+    opacity: 1;
+}
+
+div.projet3{
     width: 25%;
     height: 100%;
     margin: 0;
@@ -101,11 +126,24 @@ div.projet3{
     left: 50%;
     top: 0;
 }
-div.projet4{
-    background-image: url('../pictures/Keyboard.jpg');
+div.projet3:before {
+    background-image: url('../pictures/Desk.jpg');
     background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+div.projet3:hover:before {
+    opacity: 1;
+}
+div.projet4{
     width: 25%;
     height: 100%;
     margin: 0;
@@ -113,6 +151,24 @@ div.projet4{
     right: 0;
     top: 0;
 }
+div.projet4:before {
+    background-image: url('../pictures/Keyboard.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+div.projet4:hover:before {
+    opacity: 1;
+}
+
 section div a{
     font-size: 25px;
     display: block;
@@ -130,12 +186,6 @@ section div a p{
 section div a h2{
     margin: 10px;
 }
-
-section div a:hover,
-section div a:focus{
-
-}
-
 
 /* FOOTER */
 
