@@ -67,7 +67,7 @@ div.bloc-gauche{
     width: 480px;
     height: auto;
     position: absolute;
-    left :175px;
+    left :8%;
     top: 50%;
     transform: translateY(-50%);
     color: white;
@@ -81,7 +81,7 @@ div.bloc-gauche p{
 }
 
 /* Bloc de droite */
-
+/* 
 div.bloc-droite{
     width: 260px;
     height: auto;
@@ -92,7 +92,7 @@ div.bloc-droite{
 }
 div.bloc-droite p{
     font-size: 30px;
-}
+} */
 
 
 /* FOOTER */
@@ -103,4 +103,38 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/* RESPONSIVE DESIGN  */
+@media only screen and (max-width: 550px){
+    /* ENTÊTE */
+    div.nom {
+        position: inherit;
+        width: auto ;
+        height: auto;
+    }
+    /* NAVIGATION */
+    nav{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ul {
+        position: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    ul.menu{
+        right: inherit;
+        top: inherit;
+    }
+    ul.rs{
+        left: inherit;
+        bottom: inherit;
+    }
+    ul> li {
+        display: inherit;
+        font-size: inherit;
+        margin: inherit;
+    }
 }

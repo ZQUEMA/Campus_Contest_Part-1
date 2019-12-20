@@ -114,7 +114,7 @@ section.textes div{
     margin: 10px;
 }
 article{
-    background-color: royalblue;
+    /* background-color: royalblue; */
     width: 65%;
     height: auto;
     padding: 10px;
@@ -127,10 +127,10 @@ article div{
     height: auto;
 }
 div.presentation{
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
 }
 div.illustrations{    
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     position: relative;
     height: 300px;
 }
@@ -148,7 +148,7 @@ div.illustrations:after{
     transform: translateX(-50%) ;
 }
 div.particularite{
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     text-align: center;
     font-size: 30px;
     font-style: italic;
@@ -159,32 +159,65 @@ div.particularite p{
     width: 50%;
 }
 div.solution{
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
 }
 div.rendu{
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
+    height: 500px;
+    position: relative;
+    padding: 0;
+}
+div.rendu1{
+    background-image: url(../pictures/Computer.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    width: 25%;
+    height:300px;
+    margin: 0;
+}
+
+div.rendu2{
+    background-image: url(../pictures/Java.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    height:300px;
+    margin: 0;
+}
+
+div.rendu3{
+    background-image: url(../pictures/Desk.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: absolute;
+    Left: 75%;
+    transform: translateX(-25%);
+    width: 25%;
+    height:300px;
+    margin: 0;
+}
+div.rendu div:hover{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 400px;
+    z-index: 10;
 }
 section.textes h2{
     text-transform: uppercase;
 }
-section.textes a.projets{
-    /* background-color: darkorange; */
-    display: block;
-    position: absolute;
-    right: 10%;
-    bottom: 10px;
-    width: auto;
-    height: auto;
-}
-section.textes a.contact{
-    /* background-color: darkorange; */
-    display: block;
-    position: absolute;
-    Left: 10%;
-    bottom: 10px;
-    width: auto;
-    height: auto;
-}
+    
 /* FOOTER */
 
 footer {
