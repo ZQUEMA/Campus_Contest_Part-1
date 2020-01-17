@@ -113,6 +113,14 @@ section.textes div{
     padding: 10px;
     margin: 10px;
 }
+div.presentation{
+    /* background-color: darkmagenta; */
+    width: 55%;
+    height: auto;
+    position: relative;
+    top: auto;
+    /* right: 5%; */
+}
 div.clientelle{
     /* background-color: darkkhaki; */
     width: 30%;
@@ -120,14 +128,6 @@ div.clientelle{
     /* position: absolute;
     left: 5%; */
 
-}
-div.presentation{
-    /* background-color: darkmagenta; */
-    width: 55%;
-    height: auto;
-    position: absolute;
-    top: auto;
-    /* right: 5%; */
 }
 div.recommandations{
     /* background-color: darkolivegreen; */
@@ -171,4 +171,58 @@ footer {
     left: 0;
     bottom: 0;
     z-index: 10;
+}
+/* RESPONSIVE DESIGN  */
+@media only screen and (max-width: 875px){
+    header{
+        background-image: url('../pictures/fond-sable.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+    }
+    div.presentation{
+        background-color: darkmagenta;
+        width: 92%;
+        height: auto;
+        top: auto;
+        /* right: 5%; */
+    }
+    div.clientelle{
+        width: 92%;
+        height: auto;
+        top: auto;
+        /* right: 5%; */
+    }
+    /* ENTÊTE */
+    div.nom {
+        position: initial;
+        left : 50%;
+        width: auto;
+    }
+    div.nom p.prenom {
+        font-size: 35px;
+    }
+    /* NAVIGATION */
+    nav{
+        position: initial;
+        left : 50%;
+        width: auto;
+        text-align: center;
+    }
+    ul {
+        position: initial;
+        margin: 0;
+        padding: 0;
+    }
+    ul> li {
+        font-size: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+    div.photo{
+        top:110px;
+    }
 }
