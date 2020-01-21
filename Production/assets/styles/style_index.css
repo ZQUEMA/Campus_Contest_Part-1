@@ -132,7 +132,7 @@ footer {
         font-size: 30px;
     }
     div.bloc-gauche{
-        width: 80%;
+        width: 480px;
         height: auto;
         position: absolute;
         text-align: center;

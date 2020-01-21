@@ -14,9 +14,8 @@ body{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 1px 1px 2px black;
-    
-    width: 100%;
     height: 100vh;
+    position: relative;
 }
 /* ENTÊTE */
 header {
@@ -200,4 +199,78 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 875px){
+    header{
+        background-image: url('../pictures/fond-sable.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100px;
+        position: relative;
+    }
+    /* ENTÊTE */
+    div.nom {
+        position: initial;
+        left : 50%;
+        width: auto;
+    }
+    div.nom p.prenom {
+        font-size: 35px;
+    }
+    /* NAVIGATION */
+    nav{
+        position: initial;
+        left : 50%;
+        width: auto;
+        text-align: center;
+    }
+    ul {
+        position: initial;
+        margin: 0;
+        padding: 0;
+    }
+    ul> li {
+        font-size: 30px;
+    }
+
+    /* MILIEU */
+
+    body{
+        position: relative;
+    }
+    section{
+        height: 100%;
+        position: relative;
+    }
+    div.projet1, div.projet2, div.projet3, div.projet4{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        left: auto;
+        right: auto;
+        top:auto;
+        margin : 7px 0 7px 0;
+        }
+        div.projet1:before, div.projet2:before, 
+        div.projet3:before, div.projet4:before{
+            opacity: 100;
+            transition: none;
+        }
+    /* Footer */
+    footer{
+        position: inherit;
+        text-align: center;
+        background-image: url('../pictures/fond-sable.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        top: 100%;
+    }
 }

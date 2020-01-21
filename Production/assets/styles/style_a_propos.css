@@ -91,7 +91,7 @@ div.photo{
     transform: translateX(-50%) ;
     top : 75px;
     width: 50%;
-    height:70%;
+    height:80%;
     margin: 0;
     padding: 0;
     border-radius: 100px;
@@ -224,5 +224,7 @@ footer {
     }
     div.photo{
         top:110px;
+        width: 70%;
+        height: 75%;
     }
 }
